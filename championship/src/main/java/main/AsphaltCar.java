@@ -12,6 +12,7 @@ public class AsphaltCar extends RallyCar {
         return downforce;
     }
 
+    //This formula is completely random and doesn't really mean anything. It just produces a number.
     @Override
     public double calculatePerformance() {
         return getHorsepower() * 0.5 + downforce + 150;
